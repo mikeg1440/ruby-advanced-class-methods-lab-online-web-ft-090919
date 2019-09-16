@@ -64,30 +64,6 @@ class Song
   end
 
 
-  # def self.alphabetical
-  #
-  #   count = 0
-  #   new_array = []
-  #
-  #   while @@all[count]
-  #
-  #     if @@all[count].name <=> @@all[count + 1].name == 1
-  #       new_array << @@all[count+1]
-  #     # elsif @@all[count].name <=> @@all[count+1].name == -1
-  #     else
-  #       new_array << @@all[count]
-  #     # else
-  #       puts "same"
-  #     end
-  #
-  #     binding.pry
-  #     count += 1
-  #   end
-  #
-  #   binding.pry
-  #   new_array
-  # end
-
   def self.destroy_all
     @@all.clear
   end
